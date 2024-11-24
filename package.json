@@ -1,0 +1,36 @@
+{
+  "name": "@ceil-dev/express-portal",
+  "version": "0.1.7",
+  "author": "Sergey Shkatula",
+  "description": "Portal via Express server",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "dev": "npx tsc --watch",
+    "example": "node dist/example.js",
+    "lint": "npx eslint . --ext .ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github:ceil-dev/express-portal"
+  },
+  "devDependencies": {
+    "@types/cors": "2.8.17",
+    "@types/express": "5.0.0",
+    "@types/node": "22.9.0",
+    "@types/qrcode-terminal": "0.12.2",
+    "@typescript-eslint/eslint-plugin": "8.15.0",
+    "@typescript-eslint/parser": "8.15.0",
+    "eslint": "9.15.0",
+    "eslint-config-prettier": "9.1.0",
+    "prettier": "3.3.3",
+    "typescript": "5.6.3"
+  },
+  "dependencies": {
+    "@ceil-dev/portals": "0.4.8",
+    "cors": "2.8.5",
+    "express": "4.21.1",
+    "qrcode-terminal": "0.12.0"
+  }
+}
